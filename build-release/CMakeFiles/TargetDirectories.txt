@@ -1,0 +1,3 @@
+/home/aaron/Developer/cmake-playground/build-release/CMakeFiles/rebuild_cache.dir
+/home/aaron/Developer/cmake-playground/build-release/CMakeFiles/edit_cache.dir
+/home/aaron/Developer/cmake-playground/build-release/CMakeFiles/foo.dir
