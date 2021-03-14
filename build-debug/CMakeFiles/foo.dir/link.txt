@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/foo.dir/foo.cc.o  -o foo 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/foo.dir/foo.o  -o foo 
