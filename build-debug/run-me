@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -ex
+
+find . -maxdepth 1 -mindepth 1 -not -name run-me -and -not -name "*.swp" -and -not -name strings | xargs rm -rf
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+make
