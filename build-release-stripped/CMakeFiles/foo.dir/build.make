@@ -57,27 +57,27 @@ include CMakeFiles/foo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/foo.dir/flags.make
 
-CMakeFiles/foo.dir/foo.cc.o: CMakeFiles/foo.dir/flags.make
-CMakeFiles/foo.dir/foo.cc.o: ../foo.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaron/Developer/cmake-playground/build-release-stripped/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/foo.dir/foo.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/foo.cc.o -c /home/aaron/Developer/cmake-playground/foo.cc
+CMakeFiles/foo.dir/foo.o: CMakeFiles/foo.dir/flags.make
+CMakeFiles/foo.dir/foo.o: ../foo.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaron/Developer/cmake-playground/build-release-stripped/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/foo.dir/foo.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/foo.o -c /home/aaron/Developer/cmake-playground/foo.cc
 
-CMakeFiles/foo.dir/foo.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foo.dir/foo.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aaron/Developer/cmake-playground/foo.cc > CMakeFiles/foo.dir/foo.cc.i
+CMakeFiles/foo.dir/foo.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foo.dir/foo.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aaron/Developer/cmake-playground/foo.cc > CMakeFiles/foo.dir/foo.i
 
-CMakeFiles/foo.dir/foo.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foo.dir/foo.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aaron/Developer/cmake-playground/foo.cc -o CMakeFiles/foo.dir/foo.cc.s
+CMakeFiles/foo.dir/foo.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foo.dir/foo.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aaron/Developer/cmake-playground/foo.cc -o CMakeFiles/foo.dir/foo.s
 
 # Object files for target foo
 foo_OBJECTS = \
-"CMakeFiles/foo.dir/foo.cc.o"
+"CMakeFiles/foo.dir/foo.o"
 
 # External object files for target foo
 foo_EXTERNAL_OBJECTS =
 
-foo: CMakeFiles/foo.dir/foo.cc.o
+foo: CMakeFiles/foo.dir/foo.o
 foo: CMakeFiles/foo.dir/build.make
 foo: CMakeFiles/foo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aaron/Developer/cmake-playground/build-release-stripped/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable foo"

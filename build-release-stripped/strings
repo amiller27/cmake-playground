@@ -1,4 +1,5 @@
 /lib64/ld-linux-x86-64.so.2
+/>2=*
 (ajj	C
 libstdc++.so.6
 __gmon_start__
@@ -7,7 +8,6 @@ _ITM_registerTMCloneTable
 _ZNSolsEi
 _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
 _ZNSt8ios_base4InitD1Ev
-_ZNSolsEPFRSoS_E
 _ZNSt8ios_base4InitC1Ev
 _ZSt4cout
 libc.so.6

@@ -123,32 +123,20 @@ foo/fast:
 	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
 .PHONY : foo/fast
 
-foo.o: foo.cc.o
-
+# target to build an object file
+foo.o:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.o
 .PHONY : foo.o
 
-# target to build an object file
-foo.cc.o:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cc.o
-.PHONY : foo.cc.o
-
-foo.i: foo.cc.i
-
+# target to preprocess a source file
+foo.i:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.i
 .PHONY : foo.i
 
-# target to preprocess a source file
-foo.cc.i:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cc.i
-.PHONY : foo.cc.i
-
-foo.s: foo.cc.s
-
-.PHONY : foo.s
-
 # target to generate assembly for a file
-foo.cc.s:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cc.s
-.PHONY : foo.cc.s
+foo.s:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.s
+.PHONY : foo.s
 
 # Help Target
 help:

@@ -1,1 +1,1 @@
-/usr/bin/c++  -s  -rdynamic CMakeFiles/foo.dir/foo.cc.o  -o foo 
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic -s CMakeFiles/foo.dir/foo.o  -o foo 
